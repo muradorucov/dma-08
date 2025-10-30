@@ -1,0 +1,53 @@
+.box {
+  background-color: brown;
+  width: 70px;
+  height: 70px;
+  animation-name: anim;
+  /* animation-delay: 10s; */
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  animation-timing-function: ease-in-out;
+  /* animation-fill-mode: forwards; */
+}
+
+@keyframes anim {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(400px, 0);
+  }
+
+  35% {
+    border-radius: 0px;
+  }
+
+  38% {
+    background-color: brown;
+    border-radius: 50%;
+  }
+
+  41% {
+    background-color: yellow;
+    border-radius: 0px;
+  }
+
+
+  43% {
+    background-color: brown;
+  }
+
+  50% {
+    transform: translate(400px, 400px);
+  }
+
+  75% {
+    transform: translate(0, 400px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}

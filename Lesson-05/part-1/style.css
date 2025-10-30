@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "InterRegular";
+  src: url('https://cmuthukrishnan888.github.io/SocialLinks/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "InterSemi";
+  src: url('https://cmuthukrishnan888.github.io/SocialLinks/assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "InterBold";
+  src: url('https://cmuthukrishnan888.github.io/SocialLinks/assets/fonts/static/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+  width: 325px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 12px;
+  padding: 24px;
+  color: #fff;
+  text-align: center;
+
+  img {
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  h2 {
+    font-family: "InterRegular";
+    line-height: 50%;
+    font-size: 2em;
+  }
+
+  h4 {
+    font-family: "InterBold";
+    line-height: 200%;
+    color: rgb(197, 248, 42);
+    font-size: 1em;
+  }
+
+  p {
+    font-family: "InterRegular";
+    font-size: .875rem;
+    margin-bottom: 24px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 9px;
+      font-family: "InterSemi";
+      padding: 12px 100px;
+      background-color: hsl(0, 0%, 20%);
+      font-size: 14px;
+
+      &:hover {
+        background-color: rgb(197, 248, 42);
+        color: hsl(0, 0%, 12%);
+        transition: .5s ease;
+      }
+    }
+
+
+
+
+    li:not(li:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}

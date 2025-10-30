@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <!-- Preconnect to Google Fonts for faster loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Google Fonts: Karla family -->
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <form>
+    <h2>Contact Us</h2>
+    <div class="fullname">
+      <label>
+        <p>First Name *</p>
+        <input type="text">
+      </label>
+      <label>
+        <p>Last Name *</p>
+        <input type="text">
+      </label>
+    </div>
+    <label>
+      <p>Email Address *</p>
+      <input type="email">
+    </label>
+
+    <p>Query Type *</p>
+    <div class="query">
+
+      <label>
+        <input type="radio" name="query">
+        General Enquiry
+      </label>
+
+      <label>
+        <input type="radio" name="query">
+        Support Request
+      </label>
+    </div>
+
+    <label>
+      <p>Message *</p>
+      <textarea rows="4"></textarea>
+    </label>
+
+    <label>
+      <input type="checkbox">
+      <span>I consent to being contacted by the team *</span>
+    </label>
+
+    <input type="submit" class="btn">
+  </form>
+
+</body>
+
+</html>

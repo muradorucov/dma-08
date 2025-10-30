@@ -1,0 +1,10 @@
+1. Mehsullari gore bilmeliyem
+2. Mushul haqqinda etarfli melumat ala bilmeliyem
+3. Mehsul axtara bilmeliyem
+4. Mehsul addToCart ede bilmeliyem
+5. Sebete baxa bilmeliyem
+6. Sebetdeki mehsullari silme funksiyasi olmali
+7. Sebetdeki mehsullari sayini artira bilmeliyem
+8. Sebetdeki mehsullari sayini azalda bilmeliyem
+9. Sebetdeki mehsullari umumi qiymetini goremlemeliyem
+10. Pagination funksiyasi olmalidir

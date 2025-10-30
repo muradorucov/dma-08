@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+
+  <header class=" p-[30px] shadow-lg mb-[40px]">
+    <div class="flex justify-between items-center max-w-[1320px]  w-[90%] mx-auto">
+      <h2 class="text-[#7abc56] text-[30px] font-[900]">Ətçilər</h2>
+      <input type="text" class="border-2 border-[#ccc] rounded-md p-[5px_20px]" id="searchInput">
+    </div>
+  </header>
+
+ 
+  <main class=" max-w-[1320px]  w-[90%] mx-auto">
+     <h2 class="text-[20px] font-[900]">Total Products : <span id="totalData"></span></h2>
+    <div class="flex items-start gap-[30px]">
+      <section class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] w-[75%]" id="products"></section>
+      <aside class="w-[25%] shadow-lg p-[30px] rounded-sm">
+        <div class="flex gap-[10px] flex-col">
+          <div class="flex items-center gap-[5px] shadow-md p-[3px]">
+            <img
+              src="https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96226/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1"
+              alt="" class="w-[60px] ">
+            <div>
+              <h4>Lorem ipsum dolor sit.</h4>
+              <div class="flex justify-between items-center">
+                <p>34 AZN</p>
+                <div>
+                  <button>-</button>
+                  <span>3</span>
+                  <button>+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-[5px] shadow-md p-[3px]">
+            <img
+              src="https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96226/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1"
+              alt="" class="w-[60px] ">
+            <div>
+              <h4>Lorem ipsum dolor sit.</h4>
+              <div class="flex justify-between items-center">
+                <p>34 AZN</p>
+                <div>
+                  <button>-</button>
+                  <span>3</span>
+                  <button>+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-[5px] shadow-md p-[3px]">
+            <img
+              src="https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96226/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1"
+              alt="" class="w-[60px] ">
+            <div>
+              <h4>Lorem ipsum dolor sit.</h4>
+              <div class="flex justify-between items-center">
+                <p>34 AZN</p>
+                <div>
+                  <button>-</button>
+                  <span>3</span>
+                  <button>+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-[5px] shadow-md p-[3px]">
+            <img
+              src="https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96226/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1"
+              alt="" class="w-[60px] ">
+            <div>
+              <h4>Lorem ipsum dolor sit.</h4>
+              <div class="flex justify-between items-center">
+                <p>34 AZN</p>
+                <div>
+                  <button>-</button>
+                  <span>3</span>
+                  <button>+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-[5px] shadow-md p-[3px]">
+            <img
+              src="https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96226/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1"
+              alt="" class="w-[60px] ">
+            <div>
+              <h4>Lorem ipsum dolor sit.</h4>
+              <div class="flex justify-between items-center">
+                <p>34 AZN</p>
+                <div>
+                  <button>-</button>
+                  <span>3</span>
+                  <button>+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-[5px] shadow-md p-[3px]">
+            <img
+              src="https://goldbelly.imgix.net/uploads/showcase_media_asset/image/96226/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg?ixlib=react-9.0.2&auto=format&ar=1%3A1"
+              alt="" class="w-[60px] ">
+            <div>
+              <h4>Lorem ipsum dolor sit.</h4>
+              <div class="flex justify-between items-center">
+                <p>34 AZN</p>
+                <div>
+                  <button>-</button>
+                  <span>3</span>
+                  <button>+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="mt-[30px] font-[900] text-[20px]">Total Price: <span>350 AZN</span></p>
+      </aside>
+    </div>
+  </main>
+
+  <section class="flex justify-center items-center gap-[30px] my-[40px]" id="pagination"></section>
+
+  <button id="btn">Button</button>
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cricle1,
+.cricle3 {
+  width: 40px;
+  height: 40px;
+  transition: 1s;
+  transform: rotate(135deg);
+  animation: loader 1s infinite;
+
+
+  position: absolute;
+
+  &:hover {
+    transform: rotate(495deg);
+  }
+
+  span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+  }
+}
+
+.cricle3 {
+  animation-delay: 1.5s;
+}
+
+.cricle2 {
+  background-color: blueviolet;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(135deg);
+  }
+
+  100% {
+    transform: rotate(495deg);
+  }
+}

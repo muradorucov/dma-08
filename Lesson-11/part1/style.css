@@ -1,0 +1,103 @@
+.container {
+  width: 75%;
+  max-width: 1320px;
+  margin-inline: auto;
+}
+
+
+body {
+  color: #63636b;
+  line-height: 1.5;
+  font-family: "Istok Web", sans-serif;
+}
+
+h2,
+h3 {
+  font-family: Montserrat, sans-serif;
+  color: #3b3b44;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+#news {
+  background: #f0f4f8;
+  padding-block: 5rem;
+
+  header {
+    margin-bottom: 56px;
+    text-align: center;
+
+    span {
+      color: #2c7ae7;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 2.5rem;
+      margin-top: 10px;
+    }
+  }
+
+  main {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 56px;
+
+    article {
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      overflow: hidden;
+
+      img {
+        height: 320px;
+        object-fit: cover;
+      }
+
+      .card-info {
+        margin-top: -40px;
+        padding: 2.1875rem 1.25rem 1.25rem;
+
+        h3 {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 1.5rem;
+        }
+      }
+
+      .date {
+        width: fit-content;
+        margin-inline: auto;
+        transform: translateY(-25px);
+        height: 2.25rem;
+        background-color: #2c7ae7;
+        padding: 0 0.625rem;
+        line-height: 2.25rem;
+        color: #fff;
+        border-radius: 6px;
+        font-size: 0.8125rem;
+
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+
+    button {
+      cursor: pointer;
+      display: flex;
+      gap: 9px;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      border-radius: 6px;
+      padding: 13px 22px;
+      width: 250px;
+      background: linear-gradient(to right, #568ad3 0, #0f58bd 100%);
+      border: 1px #917cddec solid;
+    }
+  }
+}

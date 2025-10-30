@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 450px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: .4s;
+
+  &:hover {
+    scale: 1.1;
+
+
+    img,
+    p {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+img,
+p {
+  height: 100%;
+  flex: 0 0 100%;
+  transition: .4s;
+}
+
+p {
+  padding: 30px;
+  background-color: #f0f0f0;
+}

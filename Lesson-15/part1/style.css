@@ -1,0 +1,28 @@
+.container {
+  /* max-width: 1320px; */
+  width: 80%;
+  margin-inline: auto;
+  display: grid;
+  gap: 2px;
+  grid-template-columns: 1fr 0.5fr 1.3fr 2fr 1fr;
+  grid-template-rows: repeat(4, 250px);
+}
+
+.item {
+  background-color: brown;
+  color: #fff;
+  font-size: 45px;
+}
+
+.item:nth-child(2) {
+  grid-area: 1 / 2 / 3 / 4;
+}
+
+.item:nth-child(3) {
+  grid-column: 4;
+  grid-row: 1 / 5;
+}
+
+.item:nth-child(11) {
+  grid-column: 1 / 4;
+}

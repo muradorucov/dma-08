@@ -1,0 +1,70 @@
+/* a {
+  display: none;
+  background-color: yellow;
+  color: #000;
+  width: 80px;
+  height: 40px;
+  margin-block: 40px;
+} */
+
+
+/* img {
+  width: 150px;
+  height: 150px;
+  cursor: pointer; */
+
+/* display: none; */
+/* visibility: hidden; */
+/* opacity: 0; */
+/* } */
+
+/* none: yerini itirir, transition tesir etmir */
+/* visibility: yerini saxlayir, transition tesir etmir  cunki kursor gormur */
+/* opacity: yerini saxlayir, transition tesir edir, cunki kursor gorur, derecelendire bilirk 0-1 */
+
+/* 
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.menu {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+
+  &>li {
+    padding: 7px 10px;
+    box-shadow: 0 0 4px -1px black;
+    position: relative;
+
+
+    .sub-menu {
+      padding: 10px;
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      width: 100px;
+      background-color: #fff;
+      box-shadow: 0 0 4px -1px black;
+      top: 60px;
+      transition: all .4s;
+    }
+
+    &:hover {
+      .sub-menu {
+        top: 40px;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
+
+} */

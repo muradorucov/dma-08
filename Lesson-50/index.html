@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Generator Loop Counter</title>
+</head>
+
+<body>
+  <button id="startBtn">Start</button>
+  <button id="stopBtn">Stop</button>
+  <div id="output">Hazır</div>
+
+  <script>
+    function* countUpTo(max) {
+      let count = 1;
+      while (count <= max) {
+        yield count;
+        count++;
+      }
+    }
+
+    const startBtn = document.getElementById("startBtn");
+    const stopBtn = document.getElementById("stopBtn");
+    const output = document.getElementById("output");
+
+    let running = false;
+    let counter;
+
+    startBtn.addEventListener("click", () => {
+      if (running) return;
+      running = true;
+      counter = countUpTo(5);
+
+      (function loop() {
+        for (const value of counter) {
+          if (!running) break;
+          output.textContent = value;
+          console.log(value);
+        }
+        if (running) output.textContent = "Bitti ✅";
+      })();
+    });
+
+    stopBtn.addEventListener("click", () => {
+      running = false;
+      output.textContent = "Durduruldu ⏸️";
+    });
+  </script>
+</body>
+
+</html>

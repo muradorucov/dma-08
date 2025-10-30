@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #96ff0d;
+  position: relative;
+
+  .img1,
+  .img2,
+  & {
+    transition: 0.7s ease-in;
+  }
+
+  &:hover {
+    background-color: #3b3a3a;
+
+    .img1 {
+      transform: translateY(-305px);
+      scale: 0.5;
+    }
+
+    .img2 {
+      transform: translateY(-280px);
+      scale: 1.1;
+    }
+  }
+
+  .red,
+  .green {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .red {
+    background-color: red;
+    animation: redanim 3s ease 0s infinite;
+    z-index: 1;
+  }
+
+  .green {
+    background-color: greenyellow;
+    animation: greenanim 3s ease 0s infinite;
+  }
+
+
+
+}
+
+
+@keyframes greenanim {
+  0% {
+    top: 10px;
+    left: 10px;
+  }
+
+  25% {
+    left: 165px;
+    top: 10px;
+  }
+
+  50% {
+    left: 165px;
+    top: 265px;
+    border-radius: 50%;
+  }
+
+  75% {
+    left: 10px;
+    top: 265px;
+  }
+
+  100% {
+    left: 10px;
+    top: 10px;
+  }
+}
+
+@keyframes redanim {
+  0% {
+    top: 10px;
+    left: 10px;
+  }
+
+  25% {
+    left: 10px;
+    top: 265px;
+  }
+
+  50% {
+    left: 165px;
+    top: 265px;
+  }
+
+  75% {
+    left: 165px;
+    top: 10px;
+  }
+
+  100% {
+    left: 10px;
+    top: 10px;
+  }
+}
