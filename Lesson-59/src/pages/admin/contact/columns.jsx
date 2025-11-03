@@ -5,7 +5,7 @@ export const columns = [
     title: "index",
     name: "Sıra",
     cell: (obj, index) => {
-      return index + 1
+      return <p className="text-center">{index + 1}</p>
     }
   },
   {

@@ -4,7 +4,7 @@ import { Info, House, ShoppingBasket, NotebookTabs, ChartBarStacked } from 'luci
 
 function Aside() {
   return (
-    <aside className="h-[calc(100vh-56px)] w-60 bg-white border-r border-gray-200 shadow-sm flex flex-col justify-between">
+    <aside className="sticky top-0 min-h-screen w-60 bg-white border-r border-gray-200 shadow-sm flex flex-col justify-between">
       <div className="p-4">
         <ul className="space-y-2 text-sm font-medium text-gray-700">
           <li>

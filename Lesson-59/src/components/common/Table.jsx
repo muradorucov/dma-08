@@ -1,9 +1,7 @@
-import React from "react";
-
 function Table({ columns, data, setIsRender }) {
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
-      <h2 className="text-lg font-semibold text-gray-800 mb-4">İstifadəçi Siyahısı</h2>
+      <h2 className="text-lg font-semibold text-gray-800 mb-4">Məlumat Siyahısı</h2>
 
       <div className="overflow-x-auto">
         <table className="w-full text-sm text-left border-collapse">
