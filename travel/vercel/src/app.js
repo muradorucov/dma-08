@@ -16,7 +16,6 @@ var corsOptionsDelegate = function (req, callback) {
   }
   callback(null, corsOptions)
 }
-
 app.use(cors(corsOptionsDelegate))
 
 
