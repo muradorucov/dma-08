@@ -1,0 +1,41 @@
+settings => put,get
+	email
+	phone
+	in
+	insta
+	fb
+	desc
+	logo
+	
+tours => getall. getallAdmin,create,put,delete,patch,
+posts	
+services
+blogs
+contacts => post, getAll, patch
+
+auth => login,current-user, forgot-pass, reset-pass,logout,checktoken
+
+
+admin
+guest
+
+
+
+mongo,dynamic => no-sql
+postgresql,mysql,mssql - sql
+
+
+
+jwt
+token
+coockies
+access 
+middleware
+
+
+
+forgot pass => email => email send => link click 
+
+
+reset page => front > check 
+reset page => back > reset

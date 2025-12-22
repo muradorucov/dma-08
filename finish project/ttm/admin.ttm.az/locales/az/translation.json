@@ -1,0 +1,113 @@
+{
+  "navbar": {
+    "home": "Ana Səhifə",
+    "about": "Haqqımızda",
+    "services": "Xidmətlərimiz",
+    "blog": "Bloqlar",
+    "products": "Məhsullar",
+    "projects": "Layihələr",
+    "contact": "Əlaqə",
+    "category": "Kateqoriya"
+  },
+  "banner": {
+    "title": "Ən çox satılanlar",
+    "loadmore": "Bütün məhsullar"
+  },
+  "accordion": {
+    "all-products": "Bütün Məhsullar"
+  },
+  "similar": {
+    "similar": "OXŞAR MƏHSULLAR"
+  },
+  "search": {
+    "placeholder": "Axtar...",
+    "result": "Axtarış nəticəsi"
+  },
+  "pagination": {
+    "previous": "Əvvəlki",
+    "next": "Sonrakı"
+  },
+  "pages": {
+    "home": {
+      "partnyor": "Partnyorlarımız",
+      "title": "Təmir tikinti materialları",
+      "description": "İnşaat Sektorunda istifadə olunan avadanlıqlar iş,xidmət, mal və materillara aid olan məhsulların əldə edilməsi üçün TTM.AZ saytını yaratdıq.",
+      "button": "Daha çox",
+      "info": "Tikinti, inşaat, təmir zamanı istifadə olunan mal-materiallar,avadanlıqlar, təchizat üçün mallar və s. məhsulların əldə edilməsi üçün TTM.az şirkətinə rahatlıqla güvənə bilərsiniz. Sektorda 10 ildən artıq təcrübəyə malik komandamızla müştərilərimizin məmnuniyyətini əsas hədəf seçmişik.Satdığımız məhsulların keyfiyyət və standartlara uyğunluğuna tam cavabdehlik daşıyır, sürətli və əlçatan çatdırılma ilə sizin etibarlı tərəfdaşınız olmağa hazırıq. Tikinti materialları, təmir avadanlıqları, təsərrüfat və xırdavat mallarını istər topdan istərsə də pərakəndə qaydada ala bilərsiniz. Məhsullarımız Avropa, Türkiyə, Rusiya və digər istehsalçı ölkələrdən gətirilir.",
+      "info-desc": "Məhsullarımız Avropa, Türkiyə, Rusiya və digər istehsalçı ölkələrdən gətirilir. Eyni zamanda yerli istehsal olan məhsullar da stokumuzda mövcuddur.",
+      "info-desc-2": "Əlaqə: 050 244 46 94 , Email: info@ttm.az"
+    },
+    "blog": {
+      "banner": "Bloqlar",
+      "title": "Bloqlar",
+      "button": "Daha çox oxu"
+    },
+    "projects": {
+      "banner": "Layihələr",
+      "title": "Layihələr",
+      "button": "Daha çox oxu"
+    },
+    "about": {
+      "title": "Xidmətlərimiz",
+      "description": ""
+    },
+    "products": {
+      "title": "Bütün Məhsullar",
+      "category": "Kateqoriyalar",
+      "notFound": "Məhsul yoxdur",
+      "more": "Daha çox"
+    },
+    "detail": {
+      "title": "Məhsul",
+      "about-product": "Məhsul Haqqında",
+      "getting-price": "Çatdırılma Qiyməti",
+      "get-button": "Əldə et"
+    },
+    "contact": {
+      "section-title": "Bizimlə Əlaqə",
+      "mail-title": "E-poçt",
+      "number-title": "Telefon Nömrəsi",
+      "address-title": "Ünvan",
+      "map-title": "ÜNVAN / XƏRİTƏ",
+      "send-message": "Mesaj yaz",
+      "name-placeholder": "Ad",
+      "gmail-placeholder": "E-poçt",
+      "number-placeholder": "Telefon",
+      "message-placeholder": "Mesaj",
+      "subject-placeholder": "Mövzu",
+      "send": "Göndər",
+      "alert-message": "Mesaj Uğurla Göndərildi!",
+      "name-error-message": "Ad Boş qala bilməz",
+      "email-error-message": "Email Boş qala bilməz",
+      "phone-error-message": "Telefon Boş qala bilməz",
+      "subject-error-message": "Mövzu Boş qala bilməz"
+    }
+  },
+  "footer": {
+    "footer-1": "Səhifələr",
+    "footer-2": "Kateqoriyalar",
+    "footer-3": "Bizimlə Əlaqə",
+    "footer-4": "Sosial Media",
+    "copyright": "© 2024 All rights reserved.",
+    "links": {
+      "home": "Ana Səhifə",
+      "about": "Haqqımızda",
+      "services": "Xidmətlərimiz",
+      "products": "Məhsullar",
+      "projects": "Layihələr",
+      "contact": "Əlaqə"
+    },
+    "social_media": {
+      "facebook": "facebook.com/yourcompany",
+      "twitter": "twitter.com/yourcompany",
+      "instagram": "instagram.com/yourcompany"
+    }
+  },
+  "mobile_section": {
+    "title": "TƏMİR TİKİNTİ MATERİALLARI",
+    "description": "Tikinti, inşaat, təmir zamanı istifadə olunan mal-materiallar,avadanlıqlar, təchizat üçün mallar və s.məhsulların əldə edilməsi üçün TTM.az şirkətinə rahatlıqla güvənə bilərsiniz",
+    "button": "ƏTRAFLI"
+  },
+  "additional-info": "Əlavə Məlumat",
+  "gallery": "Qalereya"
+}
