@@ -7,18 +7,18 @@ const cors = require('cors')
 const app = express();
 
 
-var corsOptions = {
-  origin: function (origin, callback) {
-    if (config.whitelist.indexOf(origin) !== -1) {
-      callback(null, true)
-    } else {
-      callback(new Error('Not allowed by CORS'))
-    }
+var corsOptionsDelegate = function (req, callback) {
+  var corsOptions;
+  if (config.whitelist.indexOf(req.header('Origin')) !== -1) {
+    corsOptions = { origin: true }
+  } else {
+    corsOptions = { origin: false }
   }
+  callback(null, corsOptions)
 }
 
+app.use(cors(corsOptionsDelegate))
 
-app.use(cors(corsOptions));
 
 dbConnection();
 // proxy
