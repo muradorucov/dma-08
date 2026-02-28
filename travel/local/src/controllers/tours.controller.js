@@ -113,9 +113,9 @@ const createTour = async (req, res) => {
     const {
       title,
       location,
-      expiredDate
+      expiredDate,
+      isActive
     } = req.body;
-
 
 
     let imageFiles = req.files?.image?.map(file => {
@@ -126,6 +126,7 @@ const createTour = async (req, res) => {
       title,
       location,
       expiredDate,
+      isActive: isActive === 'true',
       image: imageFiles
     });
 
@@ -166,7 +167,8 @@ const updateTour = async (req, res) => {
     const {
       title,
       location,
-      expiredDate
+      expiredDate,
+      isActive
     } = req.body;
 
     let imageFiles = req.files?.image?.map(file => {
@@ -177,6 +179,7 @@ const updateTour = async (req, res) => {
     tour.title = title || tour.title;
     tour.location = location || tour.location;
     tour.expiredDate = expiredDate || tour.expiredDate;
+    tour.isActive = isActive !== undefined ? (isActive === 'true') : tour.isActive;
 
     const updatedTour = await tour.save();
 

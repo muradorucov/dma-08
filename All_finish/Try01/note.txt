@@ -1,0 +1,14 @@
+React  => 4
+
+
+1.Component base ( function, class)
+  import export
+2.Props 
+3.State manag (hook, events) (memory)
+4.life cycles (useEffect)
+
+5.Router 
+6.Global state (RTK,Redux,zustand)
+
+
+products => card *length

@@ -153,9 +153,10 @@ const forgotPass = async (req, res) => {
       { expiresIn: '15m' });
 
     let location = null;
-    const res = await axios.get(`https://ipapi.co/${req.ip}/json/`);
-    if (!res.data.error) {
-      const { city, region, country_name } = res.data;
+
+    const response = await axios.get(`https://ipapi.co/${req.ip}/json/`);
+    if (!response.data.error) {
+      const { city, region, country_name } = response.data;
       location = `${city}, ${region}, ${country_name}`;
     }
 
@@ -183,6 +184,8 @@ const forgotPass = async (req, res) => {
 
 
   } catch (error) {
+    console.log("rrrrrr", error);
+
     res.status(500).json({
       message: "INternal Server Error",
       error
